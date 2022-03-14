@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include "Crud.h"
 #include "Crud.h"
-#include "json.h"
+#include "json.h" //Debido a que trabajo en xcode, la forma en que integre las librerias es de esta forma. Pero en general la gente lo usa como #include <json/json.h> 
 #include "value.h"
 #include <string>
 #include <fstream>

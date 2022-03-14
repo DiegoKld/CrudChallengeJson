@@ -140,7 +140,7 @@ void Crud::agregar(){
 }
 
 void Crud::modificar(){
-    
+    /*
     Json::Reader reader;
     Json::Value root;
     Json::StyledStreamWriter writer;
@@ -166,7 +166,7 @@ void Crud::modificar(){
         
     
     }
-    
+    */
 }
 
 void Crud::listar(){
