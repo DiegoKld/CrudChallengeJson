@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A6A8356E27DD5E60005D2878 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6A8356D27DD5E60005D2878 /* main.cpp */; };
+		A616C0F127DE647800D599BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A616C0ED27DE647800D599BB /* main.cpp */; };
+		A616C0F227DE647800D599BB /* Crud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A616C0EF27DE647800D599BB /* Crud.cpp */; };
+		A616C10127DE64F700D599BB /* jsoncpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A616C10027DE64F700D599BB /* jsoncpp.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,30 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A6A8356A27DD5E60005D2878 /* dfgsdgf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dfgsdgf; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6A8356D27DD5E60005D2878 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A616C0E827DE647800D599BB /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		A616C0E927DE647800D599BB /* PreventInSourceBuilds.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PreventInSourceBuilds.cmake; sourceTree = "<group>"; };
+		A616C0EA27DE647800D599BB /* PreventInBuildInstalls.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PreventInBuildInstalls.cmake; sourceTree = "<group>"; };
+		A616C0EB27DE647800D599BB /* Crud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crud.h; sourceTree = "<group>"; };
+		A616C0ED27DE647800D599BB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A616C0EF27DE647800D599BB /* Crud.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Crud.cpp; sourceTree = "<group>"; };
+		A616C0F027DE647800D599BB /* Crud.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Crud.hpp; sourceTree = "<group>"; };
+		A616C0F427DE64C600D599BB /* forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forwards.h; sourceTree = "<group>"; };
+		A616C0F527DE64C600D599BB /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		A616C0F627DE64C600D599BB /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		A616C0F727DE64C600D599BB /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		A616C0F827DE64C600D599BB /* json_features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_features.h; sourceTree = "<group>"; };
+		A616C0F927DE64C600D599BB /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		A616C0FA27DE64C600D599BB /* allocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allocator.h; sourceTree = "<group>"; };
+		A616C0FB27DE64C600D599BB /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		A616C0FC27DE64C600D599BB /* assertions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assertions.h; sourceTree = "<group>"; };
+		A616C0FD27DE64C600D599BB /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = value.h; sourceTree = "<group>"; };
+		A616C10027DE64F700D599BB /* jsoncpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsoncpp.cpp; sourceTree = "<group>"; };
+		A616C10227DE650000D599BB /* json-forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "json-forwards.h"; sourceTree = "<group>"; };
+		A616C10327DE650000D599BB /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		A616C10427DEA2D100D599BB /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		A616C10527DEAA7B00D599BB /* datos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = datos.json; sourceTree = "<group>"; };
+		A616C10627DEB57900D599BB /* items.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
+		A6A8356A27DD5E60005D2878 /* dfgsdgf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = dfgsdgf; path = "/Users/ingdiegocalde/Desarrollo/c++/dfgsdgf/build/Debug/dfgsdgf"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,28 +62,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A616C0E727DE647800D599BB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A616C0F327DE648800D599BB /* json */,
+				A616C0E827DE647800D599BB /* CMakeLists.txt */,
+				A616C0E927DE647800D599BB /* PreventInSourceBuilds.cmake */,
+				A616C0EA27DE647800D599BB /* PreventInBuildInstalls.cmake */,
+				A616C0EB27DE647800D599BB /* Crud.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A616C0EC27DE647800D599BB /* dfgsdgf */ = {
+			isa = PBXGroup;
+			children = (
+				A616C10427DEA2D100D599BB /* data.json */,
+				A616C0ED27DE647800D599BB /* main.cpp */,
+				A616C10627DEB57900D599BB /* items.json */,
+			);
+			path = dfgsdgf;
+			sourceTree = "<group>";
+		};
+		A616C0EE27DE647800D599BB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A616C0EF27DE647800D599BB /* Crud.cpp */,
+				A616C0F027DE647800D599BB /* Crud.hpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A616C0F327DE648800D599BB /* json */ = {
+			isa = PBXGroup;
+			children = (
+				A616C0FA27DE64C600D599BB /* allocator.h */,
+				A616C0FC27DE64C600D599BB /* assertions.h */,
+				A616C0F927DE64C600D599BB /* config.h */,
+				A616C0F427DE64C600D599BB /* forwards.h */,
+				A616C0F827DE64C600D599BB /* json_features.h */,
+				A616C0F627DE64C600D599BB /* json.h */,
+				A616C0FB27DE64C600D599BB /* reader.h */,
+				A616C0FD27DE64C600D599BB /* value.h */,
+				A616C0F527DE64C600D599BB /* version.h */,
+				A616C0F727DE64C600D599BB /* writer.h */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		A616C0FE27DE64CC00D599BB /* dis */ = {
+			isa = PBXGroup;
+			children = (
+				A616C10027DE64F700D599BB /* jsoncpp.cpp */,
+				A616C0FF27DE64D200D599BB /* json */,
+			);
+			path = dis;
+			sourceTree = "<group>";
+		};
+		A616C0FF27DE64D200D599BB /* json */ = {
+			isa = PBXGroup;
+			children = (
+				A616C10227DE650000D599BB /* json-forwards.h */,
+				A616C10327DE650000D599BB /* json.h */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
 		A6A8356127DD5E5F005D2878 = {
 			isa = PBXGroup;
 			children = (
-				A6A8356C27DD5E60005D2878 /* dfgsdgf */,
-				A6A8356B27DD5E60005D2878 /* Products */,
+				A616C10527DEAA7B00D599BB /* datos.json */,
+				A616C0FE27DE64CC00D599BB /* dis */,
+				A616C0EC27DE647800D599BB /* dfgsdgf */,
+				A616C0E727DE647800D599BB /* include */,
+				A616C0EE27DE647800D599BB /* src */,
 			);
-			sourceTree = "<group>";
-		};
-		A6A8356B27DD5E60005D2878 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A6A8356A27DD5E60005D2878 /* dfgsdgf */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A6A8356C27DD5E60005D2878 /* dfgsdgf */ = {
-			isa = PBXGroup;
-			children = (
-				A6A8356D27DD5E60005D2878 /* main.cpp */,
-			);
-			path = dfgsdgf;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +182,7 @@
 				Base,
 			);
 			mainGroup = A6A8356127DD5E5F005D2878;
-			productRefGroup = A6A8356B27DD5E60005D2878 /* Products */;
+			productRefGroup = A6A8356127DD5E5F005D2878;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -119,7 +196,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6A8356E27DD5E60005D2878 /* main.cpp in Sources */,
+				A616C10127DE64F700D599BB /* jsoncpp.cpp in Sources */,
+				A616C0F127DE647800D599BB /* main.cpp in Sources */,
+				A616C0F227DE647800D599BB /* Crud.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
